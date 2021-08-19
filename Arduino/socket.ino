@@ -11,8 +11,8 @@ WebSocketsClient webSocket;
 #define MESSAGE_INTERVAL 2000
 #define HEARTBEAT_INTERVAL 25000
 
-const char* ssid = "HuaweiInternet24";
-const char* password = "r0J4535T3v3Z";
+const char* ssid = "";
+const char* password = "";
 
 uint64_t messageTimestamp = 0;
 uint64_t heartbeatTimestamp = 0;
